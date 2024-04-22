@@ -1,0 +1,348 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background: #F5FBFB;
+}
+
+
+/* header */
+
+.header__container {
+    background-color: #191919;
+    background-attachment: fixed;
+    padding: 30px 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list-menu {
+    display: flex;
+    gap: 5em;
+}
+
+.nav-list-menu-item a {
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav-list-menu-item a:hover {
+    color: rgb(212, 35, 35);
+    transition: 1s;
+}
+
+
+/* header */
+
+
+/* catalog */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 0;
+}
+
+.catalog-main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.catalog-main h3 {
+    font-size: 20px;
+}
+
+.catalog-main span {
+    width: 8px;
+    height: 8px;
+    background-color: #191919;
+    border-radius: 8px;
+}
+
+.catalog-list-title {
+    font-size: 22px;
+    padding-bottom: 20px;
+    padding-top: 48px;
+}
+
+.catalog-list-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.catalog-list-text div {
+    width: 10px;
+    height: 10px;
+    background-color: #F5FBFB;
+    border-radius: 10px;
+    border: 1px solid #191919;
+}
+
+.catalog-list-text a {
+    font-size: 18px;
+    color: #191919;
+    text-decoration: none;
+}
+
+.catalog-list-text div:hover {
+    background-color: #191919;
+    transition: 1s;
+}
+
+.catalog-list-titlee {
+    font-size: 22px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+/* input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 171px;
+    height: 15px;
+    background: #A9A3A3;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+label:after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    width: 15px;
+    height: 15px;
+    background: #0c0c0c;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+input:checked+label {
+    background: #D9D9D9;
+}
+
+input:checked+label:after {
+    left: calc(100% - 40px);
+    transform: translateX(-100%);
+}
+
+label:active:after {
+    width: 10px;
+} */
+
+.catalog-number {
+    display: flex;
+    gap: 6em;
+    padding-top: 20px;
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+.skidka {
+    font-size: 22px;
+}
+
+fieldset,
+label {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+.image {
+    display: flex;
+    gap: 3em;
+}
+
+.imagee-about {
+    padding-bottom: 96px;
+}
+
+.imagee-about img {
+    padding-bottom: 25px;
+}
+
+.imagee-about-text {
+    font-size: 18px;
+    padding-left: 2.35em;
+}
+
+.imagee-about-num {
+    font-size: 16px;
+    padding-left: 2.7em;
+}
+
+
+/****** Style Star Rating Widget *****/
+
+.rating {
+    border: none;
+    float: left;
+    padding-left: 2.5em;
+}
+
+.rating>input {
+    display: none;
+}
+
+.rating>label:before {
+    margin: 5px;
+    font-size: 1.25em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+
+.rating>.half:before {
+    content: "\f089";
+    position: absolute;
+}
+
+.rating>label {
+    color: #ddd;
+    float: right;
+}
+
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating>input:checked~label,
+
+/* show gold star when clicked */
+
+.rating:not(:checked)>label:hover,
+
+/* hover current star */
+
+.rating:not(:checked)>label:hover~label {
+    color: #FFD700;
+}
+
+
+/* hover previous stars in list */
+
+.rating>input:checked+label:hover,
+
+/* hover current star when changing rating */
+
+.rating>input:checked~label:hover,
+.rating>label:hover~input:checked~label,
+
+/* lighten current selection */
+
+.rating>input:checked~label:hover~label {
+    color: #FFED85;
+}
+
+
+/* catalog */
+
+
+/* footer */
+
+.footer {
+    background-color: #191919;
+    padding: 70px 0;
+}
+
+.footer-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 42em;
+}
+
+.footer-img-imgg1 {
+    display: flex;
+    gap: 1em;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.6em;
+    gap: 4.45em;
+}
+
+.footer-listt-link {
+    text-decoration: none;
+}
+
+.footer-listt-link h4 {
+    color: white;
+    font-size: 24px;
+    padding-bottom: 0.8em;
+}
+
+.footer-listt-link p {
+    color: white;
+    font-size: 22px;
+    padding: 0.4em 0;
+}
+
+.footer-listt-link p:hover {
+    color: rgb(243, 43, 43);
+    transition: 1s;
+}
+
+.footer-list1-title {
+    color: white;
+    font-size: 24px;
+    padding-top: 3.95em;
+}
+
+.footer-list1-text {
+    color: white;
+    font-size: 22px;
+    padding-top: 0.8em;
+}
+
+.footer-list1-email {
+    border: none;
+    width: 385px;
+    background-color: #191919;
+    font-size: 22px;
+    margin-top: 2.7em;
+}
+
+.footer-list1-email::placeholder {
+    color: white;
+}
+
+hr {
+    width: 385px;
+    background-color: white;
+}
+
+
+/* footer */

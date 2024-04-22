@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background: #F5FBFB;
+}
+
+
+/* header */
+
+.header {
+    background: url(/img/headerimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 780px;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.header-list-menu {
+    display: flex;
+    gap: 5em;
+}
+
+.header-list-menu-item a {
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.header-list-menu-item a:hover {
+    color: rgb(212, 35, 35);
+    transition: 1s;
+}
+
+.header-title {
+    color: white;
+    font-size: 66px;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.header-title span {
+    padding-right: 10%;
+}
+
+.header-btn {
+    height: 57px;
+    width: 150px;
+    border: 1px solid #fff;
+    background-color: #191919;
+    margin-left: 9em;
+}
+
+.header-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+
+/* header */
+
+
+/* popular */
+
+.popular {
+    padding-bottom: 4em;
+}
+
+.popular-title {
+    font-size: 60px;
+    padding-left: 3.3em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.popular-furniture-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.popular-furniture-section-img {
+    width: 255px;
+    height: 269px;
+    background-color: #E3E6E7;
+    margin-bottom: 2em;
+}
+
+.popular-furniture-section p {
+    text-align: center;
+    font-weight: 590;
+    font-size: 22px;
+}
+
+
+/* popular */
+
+
+/* collection */
+
+.collection {
+    display: flex;
+    align-items: center;
+    background: #191919;
+    background-size: 100%;
+    padding: 96px 0;
+    color: white;
+}
+
+.collection-img {
+    padding-left: 9em;
+}
+
+.collection-about {
+    padding-left: 3em;
+}
+
+.collection-about-title {
+    font-size: 50px;
+}
+
+.collection-about-title1 {
+    font-size: 46px;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.collection-about-text {
+    font-size: 28px;
+    width: 77%;
+}
+
+.collection-about-btn {
+    border: 1px solid white;
+    background-color: #191919;
+    width: 200px;
+    height: 57px;
+    margin-top: 3em;
+}
+
+.collection-about-btn-link {
+    color: white;
+    font-size: 24px;
+}
+
+.collection-about-btn:hover {
+    background-color: rgb(215, 22, 22);
+    border: 1px solid rgb(215, 22, 22);
+}
+
+.collection-about-btn-link:hover {
+    color: white;
+}
+
+
+/* collection */
+
+
+/* about */
+
+.about {
+    display: flex;
+    align-items: center;
+    padding: 5em 0;
+}
+
+.aboutt {
+    padding-left: 9em;
+}
+
+.aboutt-title {
+    font-size: 60px;
+    padding-bottom: 0.8em;
+}
+
+.aboutt-text {
+    font-size: 20px;
+    width: 90%;
+    padding-bottom: 1em;
+}
+
+.aboutt-num {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5em;
+}
+
+.aboutt-numberr {
+    font-size: 48px;
+}
+
+.aboutt-textt {
+    font-size: 20px;
+}
+
+.about-video {
+    padding-right: 8em;
+}
+
+
+/* about */
+
+
+/* footer */
+
+.footer {
+    background-color: #191919;
+    padding: 70px 0;
+}
+
+.footer-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 42em;
+}
+
+.footer-img-imgg1 {
+    display: flex;
+    gap: 1em;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.6em;
+    gap: 5em;
+}
+
+.footer-listt-link h4 {
+    color: white;
+    font-size: 24px;
+    padding-bottom: 0.8em;
+}
+
+.footer-listt-link p {
+    color: white;
+    font-size: 22px;
+    padding: 0.4em 0;
+}
+
+.footer-listt-link p:hover {
+    color: rgb(243, 43, 43);
+    transition: 1s;
+}
+
+.footer-list1-title {
+    color: white;
+    font-size: 24px;
+    padding-top: 3.95em;
+}
+
+.footer-list1-text {
+    color: white;
+    font-size: 22px;
+    padding-top: 0.8em;
+}
+
+.footer-list1-email {
+    border: none;
+    width: 385px;
+    background-color: #191919;
+    font-size: 22px;
+    margin-top: 2.7em;
+}
+
+.footer-list1-email::placeholder {
+    color: white;
+}
+
+hr {
+    width: 385px;
+    background-color: white;
+}
+
+
+/* footer */

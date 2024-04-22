@@ -1,0 +1,77 @@
+.products__container {
+    display: grid;
+    /* adaptive */
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    grid-gap: 45px;
+    width: 85%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.products__element {
+    border-radius: 10px;
+    background: var(--main-cotolog-bg);
+    padding-bottom: 5px;
+    transition: 0.5s all ease-in-out;
+    box-shadow: 5px 5px 30px rgb(14, 13, 13);
+}
+
+.products__element:hover {
+    transform: translateY(3px);
+}
+
+.products__element--img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.products__element--name {
+    font-family: var(--main-fonts-hind);
+    color: var(--color-main-text);
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 3vh;
+    margin-bottom: 22pt;
+    margin-left: 10pt;
+}
+
+.products__element--footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7pt;
+    margin-bottom: 5pt;
+    align-items: center;
+}
+
+.products__element--price {
+    color: var(--color-main-text);
+    font-weight: bold;
+    padding-right: 7pt;
+}
+
+.products__element--btn {
+    color: var(--color-main-text);
+    background: var(--main-btn-bg);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    height: 32px;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.products__element--btn:hover {
+    background: #377446;
+}
+
+.products__element--btn-active {
+    background: rgb(133, 133, 133);
+    color: rgb(253, 253, 253);
+}
+
+.products__element--btn-active:hover {
+    background: rgb(88, 88, 88);
+}

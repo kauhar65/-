@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мебель</title>
+    <link rel="stylesheet" href="/css/contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-list">
+            <img class="header-list-logo" src="./img/logo.svg" alt="logotip">
+            <ul class="header-list-menu">
+                <li class="header-list-menu-item">
+                    <a href="/index.html">ГЛАВНАЯ</a>
+                </li>
+                <li class="header-list-menu-item">
+                    <a href="/catalog.html">КАТАЛОГ</a>
+                </li>
+                <li class="header-list-menu-item">
+                    <a href="#">О НАС</a>
+                </li>
+                <li class="header-list-menu-item">
+                    <a href="#">ГАЛЕРЕЯ</a>
+                </li>
+                <li class="header-list-menu-item">
+                    <a href="#">КОНТАКТЫ</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="catalog-main">
+        <h3>Главная</h3>
+        <span></span>
+        <h3>Контакты</h3>
+    </div>
+
+    <h1 class="contact-title">КОНТАКТЫ</h1>
+    <div class="contact-container">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1033.8201144242428!2d74.60361577603808!3d42.871053127112674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7dab3bb6767%3A0x13514f7db270b374!2z0L7RhNC40YEgMiwgMzMvMSDRg9C7LiDQoNCw0LfQt9Cw0LrQvtCy0LAsINCR0LjRiNC60LXQuiA3MjAwNDA!5e0!3m2!1sru!2skg!4v1709281136554!5m2!1sru!2skg"
+                width="500" height="520" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+        <form class="form" onsubmit="sendEmailTelegram(event)">
+            <div class="form__stripes-block">
+                <div class="form__line"></div>
+            </div>
+            <div class="form__group">
+                <label for="name">Имя</label>
+                <input type="text" name="name" autocomplete="off" maxlength="50" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" autocomplete="off" maxlength="50" required>
+                <label for="phone">Номер телефона</label>
+                <input type="tel" name="phone" autocomplete="off" maxlength="15" required>
+            </div>
+            <div class="form__submit-block">
+                <div class="form__submit-button">
+                    <button type="submit">Отправить</button>
+                </div>
+            </div>
+            <div class="form__send-result"></div>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-img">
+            <img src="./img/logo.svg" class="footer-img-logo" alt="logotip">
+            <div class="footer-img-imgg1">
+                <div class="footer-img-imgg">
+                    <a href="#" class="footer-img-imgg-link">
+                        <img src="./img/whatsapp.svg" alt="whatsapp">
+                    </a>
+                </div>
+                <div class="footer-img-imgg">
+                    <a href="#" class="footer-img-imgg-link">
+                        <img src="./img/instagram.svg" alt="instagram">
+                    </a>
+                </div>
+                <div class="footer-img-imgg">
+                    <a href="#" class="footer-img-imgg-link">
+                        <img src="./img/facebook.svg" alt="facebook">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-list">
+            <div class="footer-listt">
+                <a href="#" class="footer-listt-link">
+                    <h4>Главная</h4>
+                </a>
+                <a href="#" class="footer-listt-link">
+                    <p>Популярное</p>
+                </a>
+                <a href="#" class="footer-listt-link">
+                    <p>О нас </p>
+                </a>
+                <a href="#" class="footer-listt-link">
+                    <p>Галерея</p>
+                </a>
+            </div>
+            <div class="footer-listt">
+                <a href="#" class="footer-listt-link">
+                    <h4>Каталог</h4>
+                </a>
+                <a href="#" class="footer-listt-link">
+                    <p>Диваны и кресла</p>
+                </a>
+                <a href="#" class="footer-listt-link">
+                    <p>Столы и стулья</p>
+                </a>
+                <a href="#" class="footer-listt-link">
+                    <p>Кровати</p>
+                </a>
+                <a href="#" class="footer-listt-link">
+                    <p>Шкафы и стеллажи</p>
+                </a>
+                <a href="#" class="footer-listt-link">
+                    <p>Комоды и тумбы</p>
+                </a>
+            </div>
+            <div class="footer-listt">
+                <a href="#" class="footer-listt-link">
+                    <h4>Контакты</h4>
+                </a>
+                <a href="#" class="footer-listt-link">
+                    <p>0500 202 057</p>
+                </a>
+                <a href="#" class="footer-listt-link">
+                    <p>mebelinter@gmail.com</p>
+                </a>
+                <a href="#" class="footer-listt-link">
+                    <p>Бишкек ул Горького 48</p>
+                </a>
+                <a href="#" class="footer-listt-link">
+                    <p>ООО “Мебель”</p>
+                </a>
+            </div>
+            <div class="footer-list1">
+                <h4 class="footer-list1-title">Подписаться на рассылку</h4>
+                <p class="footer-list1-text">Подписаться на рассылку новостей</p>
+                <input class="footer-list1-email" id="email" placeholder="email">
+                <hr>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/js/contact.js"></script>
+</body>
+
+</html>

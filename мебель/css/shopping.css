@@ -1,0 +1,29 @@
+.shopping__container {
+    width: 95%;
+    height: 95vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 30px;
+    background: #e7e7ee;
+    border-radius: 10px;
+    border: 1px solid #86adc7;
+}
+
+.shopping__element--name {
+    color: #494A4D;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.shopping__element--price {
+    color: #494A4D;
+    padding: 20px;
+}
+
+.shopping__close img {
+    width: 25px;
+}
